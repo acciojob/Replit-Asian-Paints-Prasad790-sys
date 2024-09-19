@@ -5,24 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3x3 Grid Color Changer</title>
     <style>
-        #grid-container {
-            display: grid;
-            grid-template-columns: repeat(3, 100px);
-            grid-template-rows: repeat(3, 100px);
-            gap: 10px;
-            margin: 20px;
-        }
-        .grid-item {
-            border: 1px solid #000;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 24px;
-            background-color: transparent;
-        }
-        #controls {
-            margin-top: 20px;
-        }
     </style>
 </head>
 <body>
@@ -42,7 +24,7 @@
 <div id="controls">
     <input type="text" id="block_id" placeholder="Enter block ID (1-9)">
     <input type="text" id="colour_id" placeholder="Enter color (e.g. red)">
-    <button id="change_button">Change Color</button>
+    <button id="change_button">Change</button>
     <button id="reset">Reset</button>
 </div>
 
